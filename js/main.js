@@ -27,6 +27,8 @@ emails.forEach(email =>{
     listEmailEl.appendChild(li);
 });
 };
-
+//fase 5: stamapare l'email in pagina
+//evoca funzione
+randomEmails()
 
 
