@@ -18,11 +18,15 @@ for (let i = 0; i < 10; i++) {
     } catch(error){
         //stampa l'errore in console
         console.error('error email', error);
-    }
-    
+    }  
 }
-    
-}
+emails.forEach(email =>{
+    //creazione di un elemento
+    const li = document.createElement('li')
+    li.innerHTML = email
+    listEmailEl.appendChild(li);
+});
+};
 
-//fase 5: stamapare l'email in pagina
+
 
