@@ -3,7 +3,9 @@
 console.log('hello');
 
 //fase 1: richiamare l'id ad HTML (listEmail)
+const listEmailEl = document.getElementById('listEmail');
 //fase 2: creare un array raccogliere l'email
+const emails = [];
 //fase 3: funzione per generare le email
 //fase 4: ciclo for per aggiungere l'amail all'array
 //fase 5: stamapare l'email in pagina
