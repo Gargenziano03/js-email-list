@@ -15,6 +15,9 @@ for (let i = 0; i < 10; i++) {
         const response = await axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
         //aggiunge l'indirizzo nel array
         emails.push(response.data.response);
+    } catch(error){
+        //stampa l'errore in console
+        console.error('error email', error);
     }
     
 }
